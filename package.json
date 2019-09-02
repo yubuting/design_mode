@@ -1,18 +1,23 @@
 {
-  "name": "design_dev",
-  "version": "1.0.0",
-  "description": "design by xiongtt",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --config ./webpack.dev.config.js --mode development"
-  },
-  "author": "xiongtt",
-  "license": "ISC",
-  "devDependencies": {
-    "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7",
-    "webpack-dev-server": "^3.8.0"
-  }
+    "name": "design_dev",
+    "version": "1.0.0",
+    "description": "design by xiongtt",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack-dev-server --config ./webpack.dev.config.js --mode development"
+    },
+    "author": "xiongtt",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.0.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-latest": "^6.24.1",
+        "html-webpack-plugin": "^3.2.0",
+        "webpack": "^4.39.3",
+        "webpack-cli": "^3.3.7",
+        "webpack-dev-server": "^3.8.0"
+    }
 }

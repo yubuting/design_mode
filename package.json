@@ -1,0 +1,18 @@
+{
+  "name": "design_dev",
+  "version": "1.0.0",
+  "description": "design by xiongtt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config ./webpack.dev.config.js --mode development"
+  },
+  "author": "xiongtt",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
